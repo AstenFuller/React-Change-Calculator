@@ -4,8 +4,15 @@ module.exports = {
   context: path.join(__dirname, '/src'),
 
   entry: {
-    javascript: './index'
+    javascript: './js/index'
   },
+
+  // module: {
+  //   loaders: [
+  //     { test: /\.css$/, loader: "style-loader!css-loader" },
+  //     // ...
+  //   ]
+  // },
 
   output: {
     filename: 'bundle.js',
