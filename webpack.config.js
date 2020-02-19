@@ -7,13 +7,6 @@ module.exports = {
     javascript: './js/index'
   },
 
-  module: {
-    loaders: [
-      { test: /\.css$/, loader: "style-loader!css-loader" },
-      // ...
-    ]
-  },
-
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, '/dist'),
