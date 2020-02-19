@@ -7,12 +7,12 @@ module.exports = {
     javascript: './js/index'
   },
 
-  // module: {
-  //   loaders: [
-  //     { test: /\.css$/, loader: "style-loader!css-loader" },
-  //     // ...
-  //   ]
-  // },
+  module: {
+    loaders: [
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+      // ...
+    ]
+  },
 
   output: {
     filename: 'bundle.js',
