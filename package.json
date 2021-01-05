@@ -11,7 +11,7 @@
     "less": "lessc src/css/style.less dist/css/style.css"
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.21.1",
     "babel": "^6.3.26",
     "babel-loader": "^7.1.1",
     "babel-preset-airbnb": "^1.0.1",
